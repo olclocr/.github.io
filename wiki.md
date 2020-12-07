@@ -1,24 +1,23 @@
 ![search](./image/1.png)
-   
+---
 ![jupyter](./image/2.png)
-
+---
 ```
 conda update conda
-conda install ?
-conda update ?
+conda install PACKAGE
+conda update PACKAGE
 
-conda create —name ? python=3.6
-conda create —clone ? —name ?
-conda env remove —name ?
+conda create —name ENVNAME python=3.6
+conda create —clone ENVNAME —name ENVNAME
+conda env remove —name ENVNAME
 
 conda env list
-activate ???
+activate ENVNAME
 conda list
 
-condal install tensorflow keras numpy matplotlib
-pip install pydicom
+condal install PACKAGE    #tensorflow keras numpy matplotlib
+pip install PACKAGE    #pydicom
 ```
-
 
 ```python
 !nvidia-smi
