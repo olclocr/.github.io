@@ -1,3 +1,7 @@
+![search](./image/1.png)
+   
+![jupyter](./image/2.png)
+
 ```
 conda update conda
 conda install ?
