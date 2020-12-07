@@ -2,7 +2,7 @@
 ---
 ![jupyter](./image/2.png)
 ---
-```
+```bash
 conda update conda
 conda install PACKAGE
 conda update PACKAGE
