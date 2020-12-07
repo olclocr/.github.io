@@ -22,6 +22,7 @@ pip install pydicom
 
 ```python
 !nvidia-smi
+!pip freeze
 
 from google.colab import drive
 drive.mount(‘/content/gdrive/’)
@@ -29,5 +30,5 @@ drive.mount(‘/content/gdrive/’)
 import os
 import shutil
 os.chdir(‘???’)
-!pwd # 현재 디렉토리 확인(print working directory)
+!pwd    #print working directory
 ```
