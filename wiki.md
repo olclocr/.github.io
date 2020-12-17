@@ -31,12 +31,9 @@ pip install PACKAGE    #pydicom
 ```python
 !nvidia-smi
 !pip freeze
-
 from google.colab import drive
-drive.mount(‘/content/gdrive/’)
-
+drive.mount('/content/')
 import os
-import shutil
-os.chdir(‘???’)
+os.chdir('___')
 !pwd    #print working directory
 ```
